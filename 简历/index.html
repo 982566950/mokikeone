@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>个人简历</title>
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/animation.min.css">
+</head>
+
+<body>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide swiper-slide1">
+                <h1>
+                    个人简历
+                </h1>
+                <div class="book">
+                    <img src="./images/shuben.png" alt="">
+                </div>
+            </div>
+            <div class="swiper-slide swiper-slide2">
+                <div class="two">
+                    <img src="images/two-1.png">
+                </div>
+                <div class="info">
+                    <p>
+                        <span class="name">姓&nbsp名</span>
+                        ：
+                        吴梦婷
+                    </p>
+                    <p>
+                        <span class="sex">性&nbsp别</span>
+                        ：&nbsp;&nbsp;&nbsp;女
+                    </p>
+                    <p>
+                        <span class="tel">电&nbsp话</span>
+                        ：18735968982
+                    </p>
+                    <p>
+                        <span class="qq">Q&nbsp;Q&nbsp;</span>
+                        ：&nbsp;982566950
+                    </p>
+                    <div class="two4">
+                        <img src="./images/two-4.png" alt="">
+                    </div>
+                    <ul class="skill">
+                        <li class="html">HTML</li>
+                        <li class="css">CSS</li>
+                        <li class="js">JS</li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="swiper-slide swiper-slide3">
+                <h2><img src="images/for-1.png" >
+                </h2>
+                <p>活泼开朗、乐观向上、兴趣广泛；</p>
+                <p>适应力、感悟力强，能快速融入团队；</p>
+                <p>勤奋好学，踏实肯干，动手能力强，认真负责，有很强的社会责任感；</p>
+                <p>坚毅不拔，吃苦耐劳，喜欢和勇于迎接新的挑战。</p>
+
+            </div>
+            <div class="swiper-slide">
+                <div class="erweima">
+                    <img src="./images/weixin.jpg" alt="">
+                </div>
+                <div class="end">THANK</div>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            direction: 'vertical',
+            autoplay: {
+                delay: 2000, //自动播放时间 3000是3s 时间可以修改
+                stopOnLastSlide: true,
+                disableOnInteraction: false, //用户操作之后，自动轮播效果true 暂停 false 打开
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    </script>
+
+
+</body>
+
+</html>

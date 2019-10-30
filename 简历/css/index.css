@@ -1,0 +1,214 @@
+@media only screen and (min-width:320px) {
+  html {
+    font-size: 17.06px !important;
+  }
+}
+
+@media only screen and (min-width:375px) {
+  html {
+    font-size: 20px !important;
+  }
+}
+
+@media only screen and (min-width:400px) {
+  html {
+    font-size: 21.33px !important;
+  }
+}
+
+@media only screen and (min-width:414px) {
+  html {
+    font-size: 22.08px !important;
+  }
+}
+
+@media only screen and (min-width:480px) {
+  html {
+    font-size: 25.6px !important;
+  }
+}
+
+@media only screen and (min-width:540px) {
+  html {
+    font-size: 28.8px !important;
+  }
+}
+
+@media only screen and (min-width:640px) {
+  html {
+    font-size: 34.13px !important;
+  }
+}
+
+@media only screen and (min-width:750px) {
+  html {
+    font-size: 40px !important;
+  }
+}
+
+body {
+  height: 100vh;
+}
+
+.swiper-container,
+.swiper-wrapper,
+.swiper-slide {
+  height: 100%;
+}
+
+.swiper-slide {
+  background: url(../images/bc.jpg) no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide1 {
+  flex-direction: column;
+}
+
+.swiper-slide h1 {
+  text-align: center;
+  font-size: 3rem;
+  background: linear-gradient(90deg, #ff2a00, #ff00af);
+  color: transparent;
+  -webkit-background-clip: text;
+  animation: heartBeat 3s ease;
+}
+
+.book img {
+  width: 150px;
+  position: absolute;
+  right: 1.5rem;
+  bottom: 1.5rem;
+}
+.swiper-slide2 .two {
+  position: absolute;
+  top: 2rem;
+}
+.info {
+  position: absolute;
+  top: 9rem;
+  font-size: .8rem;
+  line-height: 1.6rem;
+}
+
+.info .name,
+.sex,
+.tel,
+.qq {
+  display: block;
+  float: left;
+  font-weight: 500;
+  font-size: 1rem;
+  animation: slideInDown 3s ease;
+}
+
+.info .name {
+  color: tomato;
+}
+
+.sex {
+  color: cadetblue;
+}
+
+.tel {
+  color: #ff00af;
+}
+
+.qq {
+  color: darkblue;
+}
+
+.two4 {
+  margin-top: 1.5rem;
+}
+
+.skill li {
+  font-size: 1.25rem;
+  line-height: 2rem;
+  width: 10rem;
+  height: 2rem;
+  background-color: rgba(255, 2, 129, 0.2);
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto 1rem;
+
+}
+
+.skill .html {
+  animation: fadeInRightBig 3s ease;
+  transform: scale(.6);
+}
+
+.skill .css {
+  animation: fadeInLeftBig 3s ease;
+  transform: scale(.8);
+}
+
+.skill .js {
+  animation: fadeInRightBig 3s ease;
+}
+
+.swiper-slide h2 {
+  position: absolute;
+  top: 2rem;
+}
+
+.swiper-slide3 {
+  flex-direction: column;
+  padding-top: 20px;
+ 
+}
+.swiper-slide3 img{
+  animation: info 4s ease 3s;
+}
+@keyframes info {
+  0% {
+    transform: rotate(0) scale(.1);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.swiper-slide3 p {
+  width: 13.75rem;
+  line-height: 2.5rem;
+  font-size: .8rem;
+  margin: .5rem auto;
+  font-weight: bold;
+}
+
+.swiper-slide3 p:nth-child(2n) {
+  color: #ff00af;
+}
+
+.swiper-slide3 p:nth-child(2n+1) {
+  color: #214d27;
+}
+
+.erweima img {
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  top: 2.5rem;
+  right: 4rem;
+}
+
+.end {
+  font-size: 2.5rem;
+  font-weight: 600;
+  animation: thank 2s ease infinite;
+}
+
+@keyframes thank {
+  0% {
+    transform: rotate(0) scale(.1);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
